@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.list-items {
+  padding: 0 10px;
+}
+
+.list-items a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-items a:hover {
+  color: #455a64;
+}
+
+.list-items a.active {
+  text-decoration: underline;
+  color: #455a64;
+}

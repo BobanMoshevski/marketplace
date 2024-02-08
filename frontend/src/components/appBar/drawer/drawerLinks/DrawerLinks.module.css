@@ -1,0 +1,19 @@
+.drawer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.drawer-list-items {
+  padding: 10px 0;
+}
+.drawer-list-items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.drawer-list-items a.active {
+  text-decoration: underline;
+  color: #455a64;
+}

@@ -1,0 +1,11 @@
+.company-logo {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.company-logo:hover {
+  color: #455a64;
+}

@@ -1,0 +1,23 @@
+.products-list {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.products-item {
+  padding: 7px;
+}
+
+.products-item a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #111;
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.products-item a:hover {
+  color: #fff;
+  background-color: #455a64;
+}
